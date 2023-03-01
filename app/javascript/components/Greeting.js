@@ -10,7 +10,7 @@ const Greeting = () => {
   }, []);
   const greeting = useSelector((state) => state.greeting);
 
-  return <h1>{greeting.greeting}</h1>
+  return <h1 className='msg'>{greeting.greeting}</h1>
   
 };
 
